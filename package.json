@@ -1,0 +1,23 @@
+{
+  "name": "electron-builder-tag-mismatch",
+  "version": "1.0.0",
+  "description": "An Electron application whose repository on Github will have a single release associated with a tag that does not match the version of the release.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.wardellbagby.electron-builder-tag-mismatch",
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "identity": null
+    }
+  },
+  "author": "Wardell Bagby",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-builder": "^22.11.7"
+  }
+}
